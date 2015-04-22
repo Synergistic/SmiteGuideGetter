@@ -7,3 +7,7 @@ C:\Users\dfern_000\Documents\GitHub\SmiteGuideGetter\SmiteGuideGetter\SmiteGuide
 C:\Users\dfern_000\Documents\GitHub\SmiteGuideGetter\SmiteGuideGetter\SmiteGuideGetter\obj\Debug\SmiteGuideGetter.csproj.GenerateResource.Cache
 C:\Users\dfern_000\Documents\GitHub\SmiteGuideGetter\SmiteGuideGetter\SmiteGuideGetter\obj\Debug\SmiteGuideGetter.exe
 C:\Users\dfern_000\Documents\GitHub\SmiteGuideGetter\SmiteGuideGetter\SmiteGuideGetter\obj\Debug\SmiteGuideGetter.pdb
+C:\Users\dfern_000\Documents\GitHub\SmiteGuideGetter\SmiteGuideGetter\SmiteGuideGetter\bin\Debug\SmiteGuideGetter.exe.manifest
+C:\Users\dfern_000\Documents\GitHub\SmiteGuideGetter\SmiteGuideGetter\SmiteGuideGetter\bin\Debug\SmiteGuideGetter.application
+C:\Users\dfern_000\Documents\GitHub\SmiteGuideGetter\SmiteGuideGetter\SmiteGuideGetter\obj\Debug\SmiteGuideGetter.exe.manifest
+C:\Users\dfern_000\Documents\GitHub\SmiteGuideGetter\SmiteGuideGetter\SmiteGuideGetter\obj\Debug\SmiteGuideGetter.application
