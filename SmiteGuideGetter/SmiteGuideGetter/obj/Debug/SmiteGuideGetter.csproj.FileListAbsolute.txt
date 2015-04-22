@@ -1,0 +1,9 @@
+C:\Users\dfern_000\Documents\GitHub\SmiteGuideGetter\SmiteGuideGetter\SmiteGuideGetter\bin\Debug\SmiteGuideGetter.exe.config
+C:\Users\dfern_000\Documents\GitHub\SmiteGuideGetter\SmiteGuideGetter\SmiteGuideGetter\bin\Debug\SmiteGuideGetter.exe
+C:\Users\dfern_000\Documents\GitHub\SmiteGuideGetter\SmiteGuideGetter\SmiteGuideGetter\bin\Debug\SmiteGuideGetter.pdb
+C:\Users\dfern_000\Documents\GitHub\SmiteGuideGetter\SmiteGuideGetter\SmiteGuideGetter\obj\Debug\SmiteGuideGetter.csprojResolveAssemblyReference.cache
+C:\Users\dfern_000\Documents\GitHub\SmiteGuideGetter\SmiteGuideGetter\SmiteGuideGetter\obj\Debug\SmiteGuideGetter.Form1.resources
+C:\Users\dfern_000\Documents\GitHub\SmiteGuideGetter\SmiteGuideGetter\SmiteGuideGetter\obj\Debug\SmiteGuideGetter.Properties.Resources.resources
+C:\Users\dfern_000\Documents\GitHub\SmiteGuideGetter\SmiteGuideGetter\SmiteGuideGetter\obj\Debug\SmiteGuideGetter.csproj.GenerateResource.Cache
+C:\Users\dfern_000\Documents\GitHub\SmiteGuideGetter\SmiteGuideGetter\SmiteGuideGetter\obj\Debug\SmiteGuideGetter.exe
+C:\Users\dfern_000\Documents\GitHub\SmiteGuideGetter\SmiteGuideGetter\SmiteGuideGetter\obj\Debug\SmiteGuideGetter.pdb
