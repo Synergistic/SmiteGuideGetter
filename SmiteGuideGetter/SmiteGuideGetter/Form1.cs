@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Resources;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -25,7 +26,7 @@ namespace SmiteGuideGetter
                                                        "ah muzen cab", "nu wa", "chaac", "geb", "nemesis",
                                                        "scylla", "ullr", "kumbhakarna", "osiris",
                                                        "janus", "rama", "serqet", "cabrakan", "sylvanus", "nox",
-                                                       "ao kuang", "awilix", "hou yi", "bellona", "medusa" };
+                                                       "ao kuang", "awilix", "hou yi", "bellona", "medusa"};
 
         public List<string> quickPickLinks = new List<string>(){
             "http://www.smitefire.com/smite/guide/here-piggy-piggy-conquest-adc-s2-5899",
@@ -90,14 +91,16 @@ namespace SmiteGuideGetter
             "http://www.smitefire.com/smite/guide/suku-the-lunartic-updated-4-15-2015-7368",
             "http://www.smitefire.com/smite/guide/whos-he-hou-yi-reference-only-7357",
             "http://www.smitefire.com/smite/guide/for-whom-the-bell-ona-tolls-conquest-solo-s2-7786",
-            "http://www.smitefire.com/smite/guide/medusa-yes-looks-can-kill-updated-4-3-15-7982"
+            "http://www.smitefire.com/smite/guide/medusa-yes-looks-can-kill-updated-4-3-15-7982",
         };
 
         private string currentGod;
+        private ResourceManager rm;
 
         public Form1()
         {
             InitializeComponent();
+            rm = SmiteGuideGetter.Properties.Resources.ResourceManager;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -112,8 +115,11 @@ namespace SmiteGuideGetter
 
         private void button2_Click(object sender, EventArgs e)
         {
-            string guideUrl = quickPickLinks[Gods.IndexOf(currentGod)];
-            System.Diagnostics.Process.Start(guideUrl);
+            if (currentGod != null)
+            {
+                string guideUrl = quickPickLinks[Gods.IndexOf(currentGod)];
+                System.Diagnostics.Process.Start(guideUrl);
+            }
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -124,15 +130,14 @@ namespace SmiteGuideGetter
 
             if (match != null)
             {
-                pictureBox1.Image = Image.FromFile(match+".png", true);
+                pictureBox1.Image = (Image)rm.GetObject(match);
                 currentGod = match;
             }
             else
             {
-                pictureBox1.Image = Image.FromFile("error.png", true);
+                pictureBox1.Image = (Image)rm.GetObject("error");
                 currentGod = null;
             }
         }
-
     }
 }

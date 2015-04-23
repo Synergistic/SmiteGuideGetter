@@ -12,7 +12,7 @@
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <IsWebBootstrapper>false</IsWebBootstrapper>
-    <PublishUrl>C:\Users\dfern_000\Desktop\</PublishUrl>
+    <PublishUrl>C:\Users\dfern_000\Documents\GitHub\SmiteGuideGetter\Installer\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
     <UpdateEnabled>false</UpdateEnabled>
@@ -91,6 +91,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="ClassDiagram1.cd" />
     <None Include="Properties\Settings.settings">
@@ -123,6 +124,207 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\agni.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\ah muzen cab.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\anhur.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\anubis.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\ao kuang.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\aphrodite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\apollo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\arachne.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\ares.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\artemis.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\athena.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\awilix.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\bacchus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\bakasura.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\bastet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\bellona.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\bolt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\cabrakan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\chaac.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\change.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\chronos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\cupid.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\error.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\fenrir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\freya.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\geb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\guan yu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\hades.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\he bo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\hel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\hercules.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\hou yi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\hun batz.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\isis.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\janus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\kali.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\kukulkan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\kumbhakarna.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\loki.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\medusa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\mercury.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\ne zha.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\neith.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\nemesis.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\nox.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\nu wa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\odin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\osiris.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\poseidon %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\poseidon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\ra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\rama.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\scylla.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\serqet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\sobek.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\sun wukong.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\sylvanus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\thanatos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\thor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\tyr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\ullr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\vamana.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\vulcan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\xbalanque.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\ymir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\zeus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\zhong kui.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
