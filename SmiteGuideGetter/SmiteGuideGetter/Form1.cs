@@ -84,6 +84,7 @@ namespace SmiteGuideGetter
             "http://www.smitefire.com/smite/guide/osiris-a-completely-broken-guide-on-sending-people-to-the-afterlife-4686",
             "http://www.smitefire.com/smite/guide/how-to-portal-with-janus-4877",
             "http://www.smitefire.com/smite/guide/rama-conquest-adc-5025",
+            "http://www.smitefire.com/smite/guide/deadly-precision-8076",
             "http://www.smitefire.com/smite/guide/cabrakan-mountain-of-terror-updated-20-02-2015-5470",
             "http://www.smitefire.com/smite/guide/sylvanus-i-am-groot-detailed-ranked-guide-5568",
             "http://www.smitefire.com/smite/guide/jennifer-nyx-that-nox-updated-4-1-15-5809",
@@ -117,6 +118,7 @@ namespace SmiteGuideGetter
         {
             if (currentGod != null)
             {
+                System.Diagnostics.Debug.WriteLine(currentGod + " " + Gods.IndexOf(currentGod));
                 string guideUrl = quickPickLinks[Gods.IndexOf(currentGod)];
                 System.Diagnostics.Process.Start(guideUrl);
             }
